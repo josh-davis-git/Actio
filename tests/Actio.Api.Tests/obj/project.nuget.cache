@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qWmeIURi13TQWLpvX1DULzJT9chAcCKSCFOiGP9CE8RrUi0yziVDvy+M9GCmgpJFKPNTLGfKRa9Sp82AW+rfGg==",
+  "dgSpecHash": "IjiaBqKujszyl0BauCJAhshH6PysORs7lWlSFC74St2bcsNdzfY3EaxrCi+cPTV773wZWVimdh82+vyGOGJ+tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
+  "projectFilePath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshd\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
     "C:\\Users\\joshd\\.nuget\\packages\\fluentassertions\\4.19.4\\fluentassertions.4.19.4.nupkg.sha512",

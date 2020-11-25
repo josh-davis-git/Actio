@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Identity", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CEE678A1-0C69-4252-9936-A736403EB86C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Api.Tests", "..\..\..\Desktop\Code\tests\Actio.Api.Tests\Actio.Api.Tests.csproj", "{BE4688C2-2297-49B6-B901-7955015C362A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Api.Tests", "tests\Actio.Api.Tests\Actio.Api.Tests.csproj", "{BE4688C2-2297-49B6-B901-7955015C362A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Activities.Tests", "..\..\..\Desktop\Code\tests\Actio.Services.Activities.Tests\Actio.Services.Activities.Tests.csproj", "{D47AF8F3-B31F-481E-A061-5D070159E645}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Activities.Tests", "tests\Actio.Services.Activities.Tests\Actio.Services.Activities.Tests.csproj", "{D47AF8F3-B31F-481E-A061-5D070159E645}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Identity.Tests", "..\..\..\Desktop\Code\tests\Actio.Services.Identity.Tests\Actio.Services.Identity.Tests.csproj", "{1511AF2B-7493-4E72-BDFD-FF194DEA432C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Identity.Tests", "tests\Actio.Services.Identity.Tests\Actio.Services.Identity.Tests.csproj", "{1511AF2B-7493-4E72-BDFD-FF194DEA432C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

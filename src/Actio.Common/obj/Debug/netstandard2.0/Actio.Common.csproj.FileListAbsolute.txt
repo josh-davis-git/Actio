@@ -1,0 +1,9 @@
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.deps.json
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.dll
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.pdb
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csprojAssemblyReference.cache
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfoInputs.cache
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfo.cs
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csproj.CoreCompileInputs.cache
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.dll
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.pdb

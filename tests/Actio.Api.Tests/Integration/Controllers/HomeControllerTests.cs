@@ -22,6 +22,7 @@ namespace Actio.Api.Tests.Integration.Controllers
         }
 
         [Fact]
+        
         public async Task home_controller_get_should_return_string_content()
         {
             var response = await _client.GetAsync("/");

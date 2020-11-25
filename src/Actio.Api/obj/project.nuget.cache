@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ke2z8w06fkGjCry0+7WHcYDYi+yg2KwofXWvgTJPOYBN9jWxYLSww5Mlo7eOl5coBihPE0lfkDCbPBeTmO9Qg==",
+  "dgSpecHash": "aXsEpH2OHXu1bYq/IQ9UJwl59a7eh4RLP22tWzFaP2tDvCv/9dl+ozOxvDpYBQ7yLjqKb8uG9wtGGN9PnD/Eiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+  "projectFilePath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",

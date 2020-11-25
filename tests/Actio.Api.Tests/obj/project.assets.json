@@ -14616,11 +14616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
       "projectName": "Actio.Api.Tests",
-      "projectPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
+      "projectPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
       "packagesPath": "C:\\Users\\joshd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\obj\\",
+      "outputPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\tests\\Actio.Api.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14639,8 +14639,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {
-              "projectPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj"
+            "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {
+              "projectPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj"
             }
           }
         }

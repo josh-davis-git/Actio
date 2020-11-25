@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5jcFIWb1tp12GLVmmXxTmS18vvCHxqJLtz/q6XAO4AXQ14vLlcsTmXPdL8AC0nNqL+vpIxDIKB+kUCWn3FXvuQ==",
+  "dgSpecHash": "n+FacucKVkDEEo7rz68lLf+hCp4s738+rsuZoATV6AlVzW/OAQV+ca0Vh4QZc4F2AGZiuxXc3tyqdrK4VO010g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+  "projectFilePath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\joshd\\.nuget\\packages\\microsoft.aspnetcore\\2.0.0\\microsoft.aspnetcore.2.0.0.nupkg.sha512",
