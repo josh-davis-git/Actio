@@ -13539,11 +13539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+      "projectUniqueName": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
       "projectName": "Actio.Api",
-      "projectPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+      "projectPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
       "packagesPath": "C:\\Users\\joshd\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\obj\\",
+      "outputPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13562,8 +13562,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
-              "projectPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
+            "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+              "projectPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
             }
           }
         }
