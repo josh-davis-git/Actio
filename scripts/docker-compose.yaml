@@ -16,7 +16,7 @@ services:
     ports:
       - '5000:5000'
 
-  activities-services:
+  activities-service:
     build: ../src/Actio.Services.Activities
     links:
       - rabbitmq
@@ -24,7 +24,7 @@ services:
     ports:
       - '5050:5050'
 
-  identity-services:
+  identity-service:
     build: ../src/Actio.Services.Identity
     links:
       - rabbitmq
