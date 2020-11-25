@@ -1,7 +1,7 @@
+using Actio.Api.Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Actio.Api.Models;
 
 namespace Actio.Api.Repositories
 {

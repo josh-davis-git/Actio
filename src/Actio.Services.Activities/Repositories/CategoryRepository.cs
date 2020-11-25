@@ -1,10 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Actio.Services.Activities.Domain.Models;
 using Actio.Services.Activities.Domain.Repositories;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Actio.Services.Activities.Repositories
 {
@@ -30,7 +29,7 @@ namespace Actio.Services.Activities.Repositories
         public async Task AddAsync(Category category)
             => await Collection.InsertOneAsync(category);
 
-        private IMongoCollection<Category> Collection 
-            => _database.GetCollection<Category>("Categories");        
+        private IMongoCollection<Category> Collection
+            => _database.GetCollection<Category>("Categories");
     }
 }

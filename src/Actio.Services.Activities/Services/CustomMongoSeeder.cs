@@ -1,10 +1,10 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Actio.Common.Mongo;
 using Actio.Services.Activities.Domain.Models;
 using Actio.Services.Activities.Domain.Repositories;
 using MongoDB.Driver;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Actio.Services.Activities.Services
 {
@@ -12,8 +12,8 @@ namespace Actio.Services.Activities.Services
     {
         private readonly ICategoryRepository _categoryRepository;
 
-        public CustomMongoSeeder(IMongoDatabase database, 
-            ICategoryRepository categoryRepository) 
+        public CustomMongoSeeder(IMongoDatabase database,
+            ICategoryRepository categoryRepository)
             : base(database)
         {
             _categoryRepository = categoryRepository;

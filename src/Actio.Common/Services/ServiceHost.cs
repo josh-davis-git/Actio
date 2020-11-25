@@ -1,4 +1,3 @@
-using System;
 using Actio.Common.Commands;
 using Actio.Common.Events;
 using Actio.Common.RabbitMq;
@@ -6,6 +5,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using RawRabbit;
+using System;
 
 namespace Actio.Common.Services
 {
@@ -34,7 +34,7 @@ namespace Actio.Common.Services
             return new HostBuilder(webHostBuilder.Build());
         }
 
-        public abstract class BuilderBase 
+        public abstract class BuilderBase
         {
             public abstract ServiceHost Build();
         }
@@ -65,7 +65,7 @@ namespace Actio.Common.Services
         public class BusBuilder : BuilderBase
         {
             private readonly IWebHost _webHost;
-            private IBusClient _bus; 
+            private IBusClient _bus;
 
             public BusBuilder(IWebHost webHost, IBusClient bus)
             {

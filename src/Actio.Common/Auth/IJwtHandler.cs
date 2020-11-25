@@ -4,6 +4,6 @@ namespace Actio.Common.Auth
 {
     public interface IJwtHandler
     {
-        JsonWebToken Create(Guid userId);     
+        JsonWebToken Create(Guid userId);
     }
 }

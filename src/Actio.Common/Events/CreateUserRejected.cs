@@ -10,7 +10,7 @@ namespace Actio.Common.Events
         {
         }
 
-        public CreateUserRejected(string email, 
+        public CreateUserRejected(string email,
             string reason, string code)
         {
             Email = email;

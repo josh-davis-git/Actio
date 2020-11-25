@@ -32,6 +32,6 @@ namespace Actio.Common.Exceptions
             : base(string.Format(message, args), innerException)
         {
             Code = code;
-        }        
+        }
     }
 }

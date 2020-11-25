@@ -5,7 +5,7 @@ namespace Actio.Services.Activities.Domain.Models
     public class Category
     {
         public Guid Id { get; protected set; }
-        public string Name { get; protected set; }  
+        public string Name { get; protected set; }
 
         protected Category()
         {
@@ -15,6 +15,6 @@ namespace Actio.Services.Activities.Domain.Models
         {
             Id = Guid.NewGuid();
             Name = name.ToLowerInvariant();
-        }      
+        }
     }
 }

@@ -5,21 +5,31 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{550A1C03-AE3D-450E-82CA-EB47AD308D9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actio.Api", "src\Actio.Api\Actio.Api.csproj", "{5AA60D69-3066-4F09-BC19-203160E03E46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Api", "src\Actio.Api\Actio.Api.csproj", "{5AA60D69-3066-4F09-BC19-203160E03E46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actio.Common", "src\Actio.Common\Actio.Common.csproj", "{129189E0-F718-4EED-895B-6460E6E6FA64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Common", "src\Actio.Common\Actio.Common.csproj", "{129189E0-F718-4EED-895B-6460E6E6FA64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actio.Services.Activities", "src\Actio.Services.Activities\Actio.Services.Activities.csproj", "{4CFCB0FD-C2DE-4B66-8B65-6DFA200A6294}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Activities", "src\Actio.Services.Activities\Actio.Services.Activities.csproj", "{4CFCB0FD-C2DE-4B66-8B65-6DFA200A6294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actio.Services.Identity", "src\Actio.Services.Identity\Actio.Services.Identity.csproj", "{94E4A690-E17B-42A9-8585-3186AD24F1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Identity", "src\Actio.Services.Identity\Actio.Services.Identity.csproj", "{94E4A690-E17B-42A9-8585-3186AD24F1C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CCF45D83-F918-4708-B225-6A9E1D299EC0}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Code\scripts\docker-build.sh = ..\..\..\Desktop\Code\scripts\docker-build.sh
+		..\..\..\Desktop\Code\scripts\docker-compose.yaml = ..\..\..\Desktop\Code\scripts\docker-compose.yaml
+		..\..\..\Desktop\Code\scripts\dotnet-publish.sh = ..\..\..\Desktop\Code\scripts\dotnet-publish.sh
+		..\..\..\Desktop\Code\scripts\nginx.config = ..\..\..\Desktop\Code\scripts\nginx.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CEE678A1-0C69-4252-9936-A736403EB86C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Api.Tests", "..\..\..\Desktop\Code\tests\Actio.Api.Tests\Actio.Api.Tests.csproj", "{BE4688C2-2297-49B6-B901-7955015C362A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Activities.Tests", "..\..\..\Desktop\Code\tests\Actio.Services.Activities.Tests\Actio.Services.Activities.Tests.csproj", "{D47AF8F3-B31F-481E-A061-5D070159E645}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Identity.Tests", "..\..\..\Desktop\Code\tests\Actio.Services.Identity.Tests\Actio.Services.Identity.Tests.csproj", "{1511AF2B-7493-4E72-BDFD-FF194DEA432C}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EF324BAD-7BC9-4FF9-88C9-5620C30ECFAC}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -77,11 +87,56 @@ Global
 		{94E4A690-E17B-42A9-8585-3186AD24F1C5}.Release|x64.Build.0 = Release|Any CPU
 		{94E4A690-E17B-42A9-8585-3186AD24F1C5}.Release|x86.ActiveCfg = Release|Any CPU
 		{94E4A690-E17B-42A9-8585-3186AD24F1C5}.Release|x86.Build.0 = Release|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Release|x64.Build.0 = Release|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE4688C2-2297-49B6-B901-7955015C362A}.Release|x86.Build.0 = Release|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Debug|x64.Build.0 = Debug|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Debug|x86.Build.0 = Debug|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Release|x64.ActiveCfg = Release|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Release|x64.Build.0 = Release|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Release|x86.ActiveCfg = Release|Any CPU
+		{D47AF8F3-B31F-481E-A061-5D070159E645}.Release|x86.Build.0 = Release|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Debug|x64.Build.0 = Debug|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Debug|x86.Build.0 = Debug|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Release|x64.ActiveCfg = Release|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Release|x64.Build.0 = Release|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5AA60D69-3066-4F09-BC19-203160E03E46} = {550A1C03-AE3D-450E-82CA-EB47AD308D9D}
 		{129189E0-F718-4EED-895B-6460E6E6FA64} = {550A1C03-AE3D-450E-82CA-EB47AD308D9D}
 		{4CFCB0FD-C2DE-4B66-8B65-6DFA200A6294} = {550A1C03-AE3D-450E-82CA-EB47AD308D9D}
 		{94E4A690-E17B-42A9-8585-3186AD24F1C5} = {550A1C03-AE3D-450E-82CA-EB47AD308D9D}
+		{BE4688C2-2297-49B6-B901-7955015C362A} = {CEE678A1-0C69-4252-9936-A736403EB86C}
+		{D47AF8F3-B31F-481E-A061-5D070159E645} = {CEE678A1-0C69-4252-9936-A736403EB86C}
+		{1511AF2B-7493-4E72-BDFD-FF194DEA432C} = {CEE678A1-0C69-4252-9936-A736403EB86C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF324BAD-7BC9-4FF9-88C9-5620C30ECFAC}
 	EndGlobalSection
 EndGlobal

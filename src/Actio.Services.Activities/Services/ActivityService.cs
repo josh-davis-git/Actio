@@ -1,8 +1,8 @@
-using System;
-using System.Threading.Tasks;
 using Actio.Common.Exceptions;
 using Actio.Services.Activities.Domain.Models;
 using Actio.Services.Activities.Domain.Repositories;
+using System;
+using System.Threading.Tasks;
 
 namespace Actio.Services.Activities.Services
 {
@@ -18,13 +18,13 @@ namespace Actio.Services.Activities.Services
             _categoryRepository = categoryRepository;
         }
 
-        public async Task AddAsync(Guid id, Guid userId, string category, 
+        public async Task AddAsync(Guid id, Guid userId, string category,
             string name, string description, DateTime createdAt)
         {
             var activityCategory = await _categoryRepository.GetAsync(category);
             if (activityCategory == null)
             {
-                throw new ActioException("category_not_found", 
+                throw new ActioException("category_not_found",
                     $"Category: '{category}' was not found.");
             }
             var activity = new Activity(id, activityCategory, userId,

@@ -1,13 +1,8 @@
-using System;
-using System.Text;
-using System.Security.Claims;
-using System.Security.Cryptography;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.IO;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
 
 namespace Actio.Common.Auth
 {
@@ -31,7 +26,7 @@ namespace Actio.Common.Auth
                 ValidateAudience = false,
                 ValidIssuer = _options.Issuer,
                 IssuerSigningKey = _issuerSigningKey
-            }; 
+            };
         }
 
         public JsonWebToken Create(Guid userId)

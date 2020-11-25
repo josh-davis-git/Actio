@@ -1,12 +1,12 @@
-using System;
-using System.Linq;
-using System.Threading.Tasks;
 using Actio.Api.Repositories;
 using Actio.Common.Commands;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RawRabbit;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Actio.Api.Controllers
 {
@@ -30,7 +30,7 @@ namespace Actio.Api.Controllers
             var activities = await _repository
                 .BrowseAsync(Guid.Parse(User.Identity.Name));
 
-            return Json(activities.Select(x => new {x.Id, x.Name, x.Category, x.CreatedAt}));
+            return Json(activities.Select(x => new { x.Id, x.Name, x.Category, x.CreatedAt }));
         }
 
         [HttpGet("{id}")]
@@ -50,7 +50,7 @@ namespace Actio.Api.Controllers
         }
 
         [HttpPost("")]
-        public async Task<IActionResult> Post([FromBody]CreateActivity command)
+        public async Task<IActionResult> Post([FromBody] CreateActivity command)
         {
             command.Id = Guid.NewGuid();
             command.UserId = Guid.Parse(User.Identity.Name);

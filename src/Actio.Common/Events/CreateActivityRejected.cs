@@ -12,7 +12,7 @@ namespace Actio.Common.Events
         {
         }
 
-        public CreateActivityRejected(Guid id, 
+        public CreateActivityRejected(Guid id,
             string reason, string code)
         {
             Id = id;

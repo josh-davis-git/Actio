@@ -1,8 +1,8 @@
-using System;
-using System.Threading.Tasks;
 using Actio.Api.Models;
 using Actio.Api.Repositories;
 using Actio.Common.Events;
+using System;
+using System.Threading.Tasks;
 
 namespace Actio.Api.Handlers
 {

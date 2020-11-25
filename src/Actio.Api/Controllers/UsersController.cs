@@ -1,12 +1,12 @@
-using System.Threading.Tasks;
 using Actio.Common.Commands;
 using Microsoft.AspNetCore.Mvc;
 using RawRabbit;
+using System.Threading.Tasks;
 
 namespace Actio.Api.Controllers
 {
     [Route("[controller]")]
-    public class UsersController: Controller
+    public class UsersController : Controller
     {
         private readonly IBusClient _busClient;
 
@@ -16,7 +16,7 @@ namespace Actio.Api.Controllers
         }
 
         [HttpPost("")]
-        public async Task<IActionResult> Post([FromBody]CreateUser command)
+        public async Task<IActionResult> Post([FromBody] CreateUser command)
         {
             await _busClient.PublishAsync(command);
 

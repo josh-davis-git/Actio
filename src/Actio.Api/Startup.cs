@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Actio.Api.Handlers;
 using Actio.Api.Repositories;
 using Actio.Common.Auth;
@@ -12,8 +8,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using System;
 
 namespace Actio.Api
 {
@@ -38,6 +33,7 @@ namespace Actio.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        [Obsolete]
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -48,5 +44,6 @@ namespace Actio.Api
             app.UseAuthentication();
             app.UseMvc();
         }
+
     }
 }

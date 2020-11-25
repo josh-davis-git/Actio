@@ -1,9 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Actio.Api.Models;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Actio.Api.Repositories
 {
@@ -30,7 +30,7 @@ namespace Actio.Api.Repositories
         public async Task AddAsync(Activity activity)
             => await Collection.InsertOneAsync(activity);
 
-        private IMongoCollection<Activity> Collection 
+        private IMongoCollection<Activity> Collection
             => _database.GetCollection<Activity>("Activities");
     }
 }
