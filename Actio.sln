@@ -13,14 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Activities",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Services.Identity", "src\Actio.Services.Identity\Actio.Services.Identity.csproj", "{94E4A690-E17B-42A9-8585-3186AD24F1C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CCF45D83-F918-4708-B225-6A9E1D299EC0}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\Code\scripts\docker-build.sh = ..\..\..\Desktop\Code\scripts\docker-build.sh
-		..\..\..\Desktop\Code\scripts\docker-compose.yaml = ..\..\..\Desktop\Code\scripts\docker-compose.yaml
-		..\..\..\Desktop\Code\scripts\dotnet-publish.sh = ..\..\..\Desktop\Code\scripts\dotnet-publish.sh
-		..\..\..\Desktop\Code\scripts\nginx.config = ..\..\..\Desktop\Code\scripts\nginx.config
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CEE678A1-0C69-4252-9936-A736403EB86C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actio.Api.Tests", "..\..\..\Desktop\Code\tests\Actio.Api.Tests\Actio.Api.Tests.csproj", "{BE4688C2-2297-49B6-B901-7955015C362A}"
