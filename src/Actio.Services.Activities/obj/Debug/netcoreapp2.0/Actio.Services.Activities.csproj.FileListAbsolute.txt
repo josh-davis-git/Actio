@@ -1,6 +1,11 @@
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\appsettings.docker.json
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\appsettings.json
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.deps.json
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.runtimeconfig.json
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.runtimeconfig.dev.json
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.dll
+c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.pdb
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Common.dll
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Common.pdb
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.0\Actio.Services.Activities.csprojAssemblyReference.cache
@@ -10,9 +15,4 @@ c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\obj\Debug\ne
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.0\Actio.Services.Activities.csproj.CopyComplete
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.0\Actio.Services.Activities.dll
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.0\Actio.Services.Activities.pdb
-c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.deps.json
-c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.runtimeconfig.json
-c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.runtimeconfig.dev.json
-c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.dll
-c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\bin\Debug\netcoreapp2.0\Actio.Services.Activities.pdb
 c:\Users\joshd\Documents\GitHub\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.0\Actio.Services.Activities.genruntimeconfig.cache

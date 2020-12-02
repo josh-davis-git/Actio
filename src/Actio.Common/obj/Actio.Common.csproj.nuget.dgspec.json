@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {}
+    "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+    "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectUniqueName": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
         "projectName": "Actio.Common",
-        "projectPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
         "packagesPath": "C:\\Users\\joshd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\obj\\",
+        "outputPath": "c:\\Users\\joshd\\Documents\\GitHub\\Actio\\src\\Actio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
